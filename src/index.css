@@ -1,38 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+
+:root {
+  --purple: #820AD1;
+  --white: #ffffff;
+  --gray: #333;
+}
+
 * {
   margin: 0;
   font-family: 'Quicksand';
-  color: #333;
+  color: var(--white);
 }
 
 .navbar {
-  padding: 20px;
-  display: flex;
+  background-color: transparent !important;
+  display: block;
+  position: relative;
   align-items: center;
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  z-index: 10;
+  transition: 0.5s;
+  
 }
 
-.navbar h1 {
-  font-size: 25pt;
-  color: #820AD1;
+
+.navbar.active{
+  border-bottom: 5px solid var(--purple) !important;
+  background-color: var(--white) !important;
+  border-bottom: 0;
+  transition: 0.5s;
 }
+
+.navbar.active a, .navbar.active span{
+  color: var(--purple) !important;
+  transition: 0.1s;
+}
+
+.navbar a , .navbar span{
+  color: var(--white) !important;
+  font-weight: 500;
+  transition: 0.1s;
+}
+
+.nav-link{
+  color: #333 !important;
+}
+
+/* nav.navbar{
+  padding-inline: 25vw;
+} */
+
+.navbar .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar.active .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(130, 10, 209, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.custom-toggler.navbar-toggler {
+  border: 0;
+  font-size: 20pt;
+  line-height: 0 !important;
+} 
+
+.navbar h1 {
+  padding-top: 10pt;
+  font-weight: 400;
+  color: var(--white) !important;
+  transition: 0.5s;
+}
+
+.navbar.active h1{
+  font-weight: 900;
+  padding-top: 0;
+  color: var(--purple) !important
+}
+
 .navbar .links {
   font-size: 20pt;
   margin-left: auto;
 }
 .navbar a {
+  font-family: 'Quicksand';
+  font-size: 18pt;
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
+
+.navbar-brand{
+  font-size: 25pt;
+}
+
 .navbar a:hover {
-  color: #820AD1;
+  transition: .2s;
+  color: var(--purple);
 }
 .content {
-  max-width: 900px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.home{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home h3 {
+  font-size: 20pt;
+}
+
+.home h1 {
+  font-size: 35pt;
 }
