@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SimpleWebsite/static/css/main.cafabe57.css",
+    "main.js": "/SimpleWebsite/static/js/main.e63e36b4.js",
+    "static/media/one.png": "/SimpleWebsite/static/media/one.918ecde182112915dad8.png",
+    "static/media/two.png": "/SimpleWebsite/static/media/two.0604a9e2afb7c12f1bf8.png",
+    "index.html": "/SimpleWebsite/index.html",
+    "main.cafabe57.css.map": "/SimpleWebsite/static/css/main.cafabe57.css.map",
+    "main.e63e36b4.js.map": "/SimpleWebsite/static/js/main.e63e36b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cafabe57.css",
+    "static/js/main.e63e36b4.js"
+  ]
+}
