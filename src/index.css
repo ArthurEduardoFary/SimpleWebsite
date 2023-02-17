@@ -2,15 +2,21 @@
 
 
 :root {
-  --purple: #820AD1;
+  --lightgreen: #179CF9;
   --white: #ffffff;
   --gray: #333;
+  background-color: #06060a;
 }
+
 
 * {
   margin: 0;
   font-family: 'Quicksand';
   color: var(--white);
+}
+
+#homecontainer{
+  max-width: 100%;
 }
 
 .navbar {
@@ -22,19 +28,18 @@
   margin: 0 auto;
   z-index: 10;
   transition: 0.5s;
-  
 }
 
 
 .navbar.active{
-  border-bottom: 5px solid var(--purple) !important;
-  background-color: var(--white) !important;
+  border-bottom: 2px solid var(--lightgreen) !important;
+  background-color:var(--white) !important;
   border-bottom: 0;
   transition: 0.5s;
 }
 
 .navbar.active a, .navbar.active span{
-  color: var(--purple) !important;
+  color: var(--lightgreen) !important;
   transition: 0.1s;
 }
 
@@ -42,6 +47,17 @@
   color: var(--white) !important;
   font-weight: 500;
   transition: 0.1s;
+}
+
+.navbar .dropdown-menu.show{
+  background-color: transparent !important;
+  border-color: transparent;
+  transition: .1s;
+}
+
+.navbar.active .dropdown-menu.show{
+  border-color: var(--white);
+  background-color: var(--white) !important;
 }
 
 .nav-link{
@@ -57,7 +73,7 @@
 }
 
 .navbar.active .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(130, 10, 209, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36, 203, 155, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 
@@ -65,19 +81,18 @@
   border: 0;
   font-size: 20pt;
   line-height: 0 !important;
+  --bs-navbar-color: transparent !important;
 } 
 
 .navbar h1 {
-  padding-top: 10pt;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--white) !important;
   transition: 0.5s;
 }
 
 .navbar.active h1{
-  font-weight: 900;
-  padding-top: 0;
-  color: var(--purple) !important
+  font-weight: 500;
+  color: var(--lightgreen) !important
 }
 
 .navbar .links {
@@ -92,14 +107,15 @@
   padding: 6px;
 }
 
-.navbar-brand{
-  font-size: 25pt;
+.navbar-brand h1{
+  font-size: 20pt !important;
 }
 
 .navbar a:hover {
   transition: .2s;
-  color: var(--purple);
+  color: var(--lightgreen);
 }
+
 .content {
   margin: 40px auto;
   padding: 20px;
@@ -120,3 +136,4 @@
 .home h1 {
   font-size: 35pt;
 }
+
