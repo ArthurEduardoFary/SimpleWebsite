@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/SimpleWebsite/static/css/main.1e20e88b.css",
-    "main.js": "/SimpleWebsite/static/js/main.f5da435a.js",
+    "main.js": "/SimpleWebsite/static/js/main.93f6830e.js",
     "static/media/two.jpg": "/SimpleWebsite/static/media/two.c78fa2114d3dd546326b.jpg",
     "static/media/one.jpg": "/SimpleWebsite/static/media/one.bcd2703c055effed86c2.jpg",
+    "static/media/eu.png": "/SimpleWebsite/static/media/eu.a68def128bc64641293e.png",
+    "static/media/pythonlogo.svg": "/SimpleWebsite/static/media/pythonlogo.b24bcdc2b1b14d94bdf9d028662dfdc3.svg",
+    "static/media/csharplogo.svg": "/SimpleWebsite/static/media/csharplogo.e464fe458883d09af4b596a430931064.svg",
+    "static/media/phplogo.svg": "/SimpleWebsite/static/media/phplogo.24d7adc007f5582ada235156cf323a74.svg",
     "index.html": "/SimpleWebsite/index.html",
+    "static/media/jslogo.svg": "/SimpleWebsite/static/media/jslogo.36977729f441a28ca3444b3c3fbdfc4b.svg",
+    "static/media/htmllogo.svg": "/SimpleWebsite/static/media/htmllogo.5804150e47fbeb132a5d2688f08ce4c8.svg",
+    "static/media/reactlogo.svg": "/SimpleWebsite/static/media/reactlogo.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.1e20e88b.css.map": "/SimpleWebsite/static/css/main.1e20e88b.css.map",
-    "main.f5da435a.js.map": "/SimpleWebsite/static/js/main.f5da435a.js.map"
+    "main.93f6830e.js.map": "/SimpleWebsite/static/js/main.93f6830e.js.map"
   },
   "entrypoints": [
     "static/css/main.1e20e88b.css",
-    "static/js/main.f5da435a.js"
+    "static/js/main.93f6830e.js"
   ]
 }
