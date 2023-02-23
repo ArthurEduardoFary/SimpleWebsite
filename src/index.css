@@ -137,3 +137,32 @@
   font-size: 35pt;
 }
 
+#sqr, #sqr img{
+  transition:  .4s;
+  transition-timing-function: ease-out;
+}
+
+#sqr:hover{
+  transition:  .4s;
+  transition-timing-function: ease;
+  color: var(--lightgreen) !important;
+  background-color: var(--lightgreen) !important; 
+}
+
+#sqr h1{
+  opacity: 0;
+  transition: .4s;
+  transition-timing-function: ease;
+}
+
+#sqr:hover h1{
+  opacity: 1;
+  transition: .4s;
+  
+}
+
+#sqr:hover img{
+  transition:  .4s;
+  transition-timing-function: ease;
+  opacity: 0;
+}

@@ -14,7 +14,7 @@ const resources = {
         "iam2": "I am a",
         "dev": "Junior level developer",
         "aboutme": "About me",
-        "intrestedin": "I am interested in",
+        "intrestedin": "What I am interested in",
 
         "aboutme1": "My name is Arthur, I am a junior Full-Stack developer with a on-going bachelors in Informational Systems.",
         "aboutme2" : "I would describe myself as a coding enthusiast who really enjoys developping stuff. 💻",
@@ -31,10 +31,10 @@ const resources = {
         "iam": "Sou Arthur Fary",
         "iam2": "Eu sou um programador",
         "dev": "Junior",
-        "aboutme": "Sobre mim",
-        "intrestedin": "Tenho interesse em",
+        "aboutme": "Sobre mim:",
+        "intrestedin": "Tenho interesse em:",
 
-        "aboutme1": " Meu nome é Arthur, eu sou um developer Full-Stack junior cursando Sisteamas da Informação.",
+        "aboutme1": " Meu nome é Arthur, eu sou um developer Full-Stack junior cursando Sistemas de Informação.",
         "aboutme2" : "Eu me descreveria como um entusiasta da programação que gosta muito de desenvolver coisas. 💻",
 
         "whatsapp": "Oi+Arthur,+vim+do+seu+site!"

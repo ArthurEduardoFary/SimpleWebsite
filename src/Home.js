@@ -63,55 +63,73 @@ const Home = () => {
 
             <Row className='mt-5'>
                 <Col xs={12} md={4} >
-                    <div className='text-md-end text-center mb-md-0 mb-5'> <img src={myself} alt="Eu"  style={{borderRadius: '50%'}}/></div>
+                    <div className='text-md-end text-center mb-md-0 mb-5'> <img src={myself} alt="Eu"  style={{borderRadius: '50%'}} className='w-75'/></div>
                 </Col>
                 <Col xs={12} md={8}>
                     <div className='text-md-start text-center mt-md-5 mt-0 pt-md-5 pt-0'> 
-                    <p>{t('aboutme1')}
-                    </p>
-                    <p>
+                <h1>{t('aboutme1')}
+                    </h1>
+                <h1>
                     {t('aboutme2')}
-                    </p>
+                </h1>
                     </div>
                 </Col>
             </Row>
 
             <Row>
                 <Col>
-                <h1 className='text-center my-5 py-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
+                <h1 className='text-center mb-lg-5  my-2 py-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
                 </Col>
             </Row>
 
             <Row className='justify-content-center mx-lg-5 mb-2 mx-0'>
-                <Col xs={6} md={2} align='center'>
-                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
-                        <img className='w-75' src={jslogo}></img>
+                <Col xs={6} md={2} align='center' className='mb-4' >
+                    <div className='p-5' id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}} >
+                        <img className='w-75' src={jslogo} />
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>JavaScript</h1></div>
                     </div>
                 </Col>
-                <Col xs={6} md={2} align='center'>
-                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                <Col xs={6} md={2} align='center' className='mb-4'>
+                    <div className='p-5' id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
                         <img className='w-75' src={pythonlogo}></img>
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>Python</h1></div>
                     </div>
                 </Col>
-                <Col xs={6} md={2} align='center'>
-                    <div className='d-flex justify-content-center h-100 p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px' }} >
+                <Col xs={6} md={2} align='center' className='mb-4'>
+                    <div className='d-flex justify-content-center h-100 p-5'  id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}} >
                         <img className='w-75' src={reactlogo}></img>
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>React</h1></div>
                     </div>
                 </Col>
-                <Col xs={6} md={2} align='center'>
-                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                <Col xs={6} md={2} align='center' className='mb-4'>
+                    <div className='p-5' id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
                         <img className='w-75' src={phplogo}></img>
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>PHP</h1></div>
                     </div>
                 </Col>
-                <Col xs={6} md={2} align='center'>
-                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                <Col xs={6} md={2} align='center' className='mb-4'>
+                    <div className='p-5' id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
                         <img className='w-75' src={csharplogo}></img>
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>C#</h1></div>
                     </div>
                 </Col>
                 <Col xs={6} md={2} align='center'>
-                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                    <div className='p-5' id='sqr' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
                         <img className='w-75' src={htmllogo}></img>
+                        <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><h1>HTML5</h1></div>
                     </div>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col>
+                    <h1 className='text-center mb-lg-5  my-2 py-5' style={{fontSize: '50pt'}}>Gostou? Me chama!</h1>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col>
+                    <p>eu nao sei o que eu coloco aqui</p>
                 </Col>
             </Row>
         </Container>
