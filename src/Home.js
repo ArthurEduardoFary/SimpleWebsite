@@ -5,6 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import myself from './img/eu.png'
+
+import pythonlogo from './img/pythonlogo.svg'
+import jslogo from './img/jslogo.svg'
+import reactlogo from './img/reactlogo.svg'
+import htmllogo from './img/htmllogo.svg'
+import phplogo from './img/phplogo.svg'
+import csharplogo from './img/csharplogo.svg'
+
 
 import { useTranslation } from 'react-i18next';
 
@@ -54,15 +63,14 @@ const Home = () => {
 
             <Row className='mt-5'>
                 <Col xs={12} md={4} >
-                    <div style={{backgroundColor: 'red'}} className='text-md-end text-center mb-md-0 mb-5'> aqui vai uma foto mto massa</div>
+                    <div className='text-md-end text-center mb-md-0 mb-5'> <img src={myself} alt="Eu"  style={{borderRadius: '50%'}}/></div>
                 </Col>
                 <Col xs={12} md={8}>
-                    <div className='text-md-start text-center'> 
-                    <p>My name is Arthur, I am a junior Full-Stack developer 
-                        with a on-going bachelors in Informational Systems. 
+                    <div className='text-md-start text-center mt-md-5 mt-0 pt-md-5 pt-0'> 
+                    <p>{t('aboutme1')}
                     </p>
                     <p>
-                        I would describe myself as a coding enthusiast who really enjoys developping stuff. 💻
+                    {t('aboutme2')}
                     </p>
                     </div>
                 </Col>
@@ -70,12 +78,41 @@ const Home = () => {
 
             <Row>
                 <Col>
-                <h1 className='text-center mt-5 pt-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
+                <h1 className='text-center my-5 py-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
                 </Col>
             </Row>
 
-            <Row>
-                <Col></Col>
+            <Row className='justify-content-center mx-lg-5 mb-2 mx-0'>
+                <Col xs={6} md={2} align='center'>
+                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                        <img className='w-75' src={jslogo}></img>
+                    </div>
+                </Col>
+                <Col xs={6} md={2} align='center'>
+                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                        <img className='w-75' src={pythonlogo}></img>
+                    </div>
+                </Col>
+                <Col xs={6} md={2} align='center'>
+                    <div className='d-flex justify-content-center h-100 p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px' }} >
+                        <img className='w-75' src={reactlogo}></img>
+                    </div>
+                </Col>
+                <Col xs={6} md={2} align='center'>
+                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                        <img className='w-75' src={phplogo}></img>
+                    </div>
+                </Col>
+                <Col xs={6} md={2} align='center'>
+                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                        <img className='w-75' src={csharplogo}></img>
+                    </div>
+                </Col>
+                <Col xs={6} md={2} align='center'>
+                    <div className='p-5' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px'}}>
+                        <img className='w-75' src={htmllogo}></img>
+                    </div>
+                </Col>
             </Row>
         </Container>
 
