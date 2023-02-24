@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SimpleWebsite/static/css/main.8dfd62a1.css",
-    "main.js": "/SimpleWebsite/static/js/main.b7b1ac4f.js",
+    "main.css": "/SimpleWebsite/static/css/main.a9e35859.css",
+    "main.js": "/SimpleWebsite/static/js/main.4df9b331.js",
     "static/media/two.jpg": "/SimpleWebsite/static/media/two.c78fa2114d3dd546326b.jpg",
     "static/media/one.jpg": "/SimpleWebsite/static/media/one.bcd2703c055effed86c2.jpg",
     "static/media/eu.png": "/SimpleWebsite/static/media/eu.a68def128bc64641293e.png",
@@ -12,11 +12,11 @@
     "static/media/jslogo.svg": "/SimpleWebsite/static/media/jslogo.36977729f441a28ca3444b3c3fbdfc4b.svg",
     "static/media/htmllogo.svg": "/SimpleWebsite/static/media/htmllogo.5804150e47fbeb132a5d2688f08ce4c8.svg",
     "static/media/reactlogo.svg": "/SimpleWebsite/static/media/reactlogo.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.8dfd62a1.css.map": "/SimpleWebsite/static/css/main.8dfd62a1.css.map",
-    "main.b7b1ac4f.js.map": "/SimpleWebsite/static/js/main.b7b1ac4f.js.map"
+    "main.a9e35859.css.map": "/SimpleWebsite/static/css/main.a9e35859.css.map",
+    "main.4df9b331.js.map": "/SimpleWebsite/static/js/main.4df9b331.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dfd62a1.css",
-    "static/js/main.b7b1ac4f.js"
+    "static/css/main.a9e35859.css",
+    "static/js/main.4df9b331.js"
   ]
 }
