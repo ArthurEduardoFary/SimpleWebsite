@@ -66,10 +66,10 @@ const Home = () => {
                     <div className='text-md-end text-center mb-md-0 mb-5'> <img src={myself} alt="Eu"  style={{borderRadius: '50%'}} className='w-75'/></div>
                 </Col>
                 <Col xs={12} md={8}>
-                    <div className='text-md-start text-center mt-md-5 mt-0 pt-md-5 pt-0'> 
-                <h1>{t('aboutme1')}
+                    <div className='text-md-start text-center text-justify mt-md-5 mt-2 pt-md-5 pt-0'> 
+                <h1 id='abm'>{t('aboutme1')}
                     </h1>
-                <h1>
+                <h1 id='abm'>
                     {t('aboutme2')}
                 </h1>
                     </div>
@@ -78,7 +78,7 @@ const Home = () => {
 
             <Row>
                 <Col>
-                <h1 className='text-center mb-lg-5  my-2 py-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
+                <h1 className='text-center mb-5  my-2 py-5' style={{fontSize: '50pt'}}>{t('intrestedin')}</h1>
                 </Col>
             </Row>
 
@@ -123,13 +123,34 @@ const Home = () => {
 
             <Row>
                 <Col>
-                    <h1 className='text-center mb-lg-5  my-2 py-5' style={{fontSize: '50pt'}}>Gostou? Me chama!</h1>
+                    <h1 className='text-center mb-5  my-2 py-5' style={{fontSize: '50pt'}}>{t('certificates')}</h1>
                 </Col>
             </Row>
 
-            <Row>
-                <Col>
-                    <p>eu nao sei o que eu coloco aqui</p>
+            <Row className='mx-lg-5 px-5'>
+                <Col xs={12} md={4} align='center' className='mb-3'>
+                    <div className='p-5' id='sqr2' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
+                        <h3><strong>{t('webprogrammer')}</strong></h3>
+                        <h4>Pronatec</h4>
+                        <h5>HTML · PHP · JavaScript · CSS</h5>
+                        <h6>2021</h6>
+                    </div>
+                </Col>
+                <Col xs={12} md={4} align='center' className='mb-3'>
+                    <div className='p-5' id='sqr2' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
+                        <h3><strong>{t('english')}</strong></h3>
+                        <h4>KNN Professional Course</h4>
+                        <h5>Intermediate Level</h5>
+                        <h6>2020</h6>
+                    </div>
+                </Col>
+                <Col xs={12} md={4} align='center' className='mb-3'>
+                    <div className='p-5' id='sqr2' style={{backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative'}}>
+                        <h3><strong>{t('oop')}</strong></h3>
+                        <h4>Fundação Bradesco</h4>
+                        <h5>Python</h5>
+                        <h6>2022</h6>
+                    </div>
                 </Col>
             </Row>
         </Container>

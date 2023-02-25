@@ -166,3 +166,19 @@
   transition-timing-function: ease;
   opacity: 0;
 }
+
+#sqr2:hover {
+  transition: .4s;
+  background-color: rgba(45,45,45,.25) !important;
+  color: rgba(45,45,45,.25);
+}
+
+#abm{
+  font-size: 23pt;
+}
+
+@media (min-width: 768px){
+  #abm{
+    font-size: 35pt;
+  }
+}

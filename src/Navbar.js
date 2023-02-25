@@ -19,6 +19,7 @@ function MainNavbar() {
 
     const changeTranslationHandler = lng => {
       i18n.changeLanguage(lng)
+      document.cookie = "lang=" + lng
     }
 
     //CREATE CLASS with variable 'navbar' set as default to false
