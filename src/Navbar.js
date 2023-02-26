@@ -58,7 +58,7 @@ function MainNavbar() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-xs`}>
-                  Offcanvas
+                  {t('options')}
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className='me-5 justify-content-end'>
@@ -84,11 +84,11 @@ function MainNavbar() {
                 </NavDropdown>
                 
                 <Col >
-                  <NavDropdown title={t('lang')} id='nav-dropdown' className='pe-5 '> 
-                          <NavDropdown.Item onClick={() => {changeTranslationHandler('en')}}>
+                  <NavDropdown title={t('lang')} id='nav-dropdown'> 
+                          <NavDropdown.Item onClick={() => {changeTranslationHandler('en')}} className='mx-0 px-0 ps-4'>
                             English
                           </NavDropdown.Item>
-                          <NavDropdown.Item onClick={() => {changeTranslationHandler('pt')}}>
+                          <NavDropdown.Item onClick={() => {changeTranslationHandler('pt')}} className='mx-0 px-0 ps-4'>
                             Português
                           </NavDropdown.Item>
                   </NavDropdown>

@@ -26,6 +26,8 @@ const resources = {
     translation: {
         "lang": "Language",
         "contactme": "Contact-me",
+        "options": "Options",
+
         "hello": "Hello",
         "iam": "I am Arthur Fary",
         "iam2": "I am a",
@@ -49,6 +51,7 @@ const resources = {
     translation: {
         "lang": "Idioma",
         "contactme": "Contato",
+        "options": "Opções",
         "hello": "Olá",
         "iam": "Sou Arthur Fary",
         "iam2": "Eu sou um programador",
@@ -73,7 +76,7 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources,
-    lng: getCookie('lang') != "" ? getCookie('lang') : document.cookie = "lang=en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
+    lng: getCookie('lang') != "" ? getCookie('lang') : ( () => {document.cookie = "lang=en"; return "en"}) (), // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
     // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
     // if you're using a language detector, do not define the lng option
 

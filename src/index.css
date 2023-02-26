@@ -2,7 +2,7 @@
 
 
 :root {
-  --lightgreen: #179CF9;
+  --primaryblue: #179CF9;
   --white: #ffffff;
   --gray: #333;
   background-color: #06060a;
@@ -32,14 +32,14 @@
 
 
 .navbar.active{
-  border-bottom: 2px solid var(--lightgreen) !important;
+  border-bottom: 2px solid var(--primaryblue) !important;
   background-color:var(--white) !important;
   border-bottom: 0;
   transition: 0.5s;
 }
 
 .navbar.active a, .navbar.active span{
-  color: var(--lightgreen) !important;
+  color: var(--primaryblue) !important;
   transition: 0.1s;
 }
 
@@ -92,7 +92,7 @@
 
 .navbar.active h1{
   font-weight: 500;
-  color: var(--lightgreen) !important
+  color: var(--primaryblue) !important
 }
 
 .navbar .links {
@@ -113,7 +113,7 @@
 
 .navbar a:hover {
   transition: .2s;
-  color: var(--lightgreen);
+  color: var(--primaryblue);
 }
 
 .content {
@@ -145,8 +145,8 @@
 #sqr:hover{
   transition:  .4s;
   transition-timing-function: ease;
-  color: var(--lightgreen) !important;
-  background-color: var(--lightgreen) !important; 
+  color: var(--primaryblue) !important;
+  background-color: var(--primaryblue) !important; 
 }
 
 #sqr h1{
