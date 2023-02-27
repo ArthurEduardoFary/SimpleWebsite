@@ -48,9 +48,9 @@ function MainNavbar() {
       <Navbar collapseOnSelect expand='sm' fixed='top' className={(navbar ? "navbar active" : "navbar navbar-dark")}>
           <Container>
 
-            <Navbar.Brand href="#" ><h1  className='ms-5 pt-2'>Arthur</h1> </Navbar.Brand>
+            <Navbar.Brand href="#" ><h1  className='ms-lg-5 ms-3 pt-2'>Arthur</h1> </Navbar.Brand>
             
-            <Navbar.Toggle className='humburger me-5 custom-toggler' aria-controls="navbarHamburger" data-bs-toggle="collapse" data-bs-target="#navbarHamburger" />
+            <Navbar.Toggle className='humburger me-lg-5 me-3 custom-toggler' aria-controls="navbarHamburger" data-bs-toggle="collapse" data-bs-target="#navbarHamburger" />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-xs`}
               aria-labelledby={`offcanvasNavbarLabel-expand-xs`}
@@ -64,7 +64,7 @@ function MainNavbar() {
               <Offcanvas.Body className='me-5 justify-content-end'>
             
             <Nav class="navbar-nav" >
-                <Nav.Link href='https://github.com/ArthurEduardoFary/SimpleWebsite' target='__blank' className='pe-3'>
+                <Nav.Link href='https://github.com/ArthurEduardoFary/' target='__blank' className='pe-3'>
                     Git-hub
                 </Nav.Link>
                 <Nav.Link href='https://www.linkedin.com/in/arthur-eduardo-fary-199346213/' target='__blank' className='pe-3'>

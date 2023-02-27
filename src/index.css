@@ -2,7 +2,7 @@
 
 
 :root {
-  --primaryblue: #179CF9;
+  --primaryblue: #179cf9;
   --white: #ffffff;
   --gray: #333;
   background-color: #06060a;
@@ -73,7 +73,7 @@
 }
 
 .navbar.active .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36, 203, 155, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(23, 156, 249, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='15' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 
@@ -181,4 +181,9 @@
   #abm{
     font-size: 35pt;
   }
+}
+
+#footercontainer {
+  max-width: 100%;
+  background-color: var(--primaryblue);
 }

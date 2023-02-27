@@ -43,7 +43,9 @@ const resources = {
         "certificates": "My certificates",
         "webprogrammer": "Web Programmer",
         "english": "English",
-        "oop": "Object Oriented Programming"
+        "oop": "Object Oriented Programming",
+
+        "madewith": "Made with React by Arthur Fary",
 
     }
   },
@@ -67,7 +69,9 @@ const resources = {
         "certificates": "Certificados:",
         "webprogrammer": "Programador Web",
         "english": "Inglês",
-        "oop": "Programação Orientada a Obj."
+        "oop": "Programação Orientada a Obj.",
+
+        "madewith": "Feito usando React por Arthur Fary",
     }
   }
 };
