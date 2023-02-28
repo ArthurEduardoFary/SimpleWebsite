@@ -21,6 +21,7 @@ import instagramsvg from './img/instagram.svg'
 
 import { useTranslation } from 'react-i18next';
 
+
 function Home() {
 
     const { t, i18n } = useTranslation();
@@ -94,31 +95,31 @@ function Home() {
                             </div>
                         </Col>
                         <Col xs={6} md={2} align='center' className='mb-4'>
-                            <div className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                            <div  className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
                                 <img className='w-75' src={pythonlogo}></img>
                                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><h1 className='fs-1'>Python</h1></div>
                             </div>
                         </Col>
                         <Col xs={6} md={2} align='center' className='mb-4'>
-                            <div className='d-flex justify-content-center h-100 p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }} >
+                            <div  className='d-flex justify-content-center h-100 p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }} >
                                 <img className='w-75' src={reactlogo}></img>
                                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><h1 className='fs-1'>React</h1></div>
                             </div>
                         </Col>
                         <Col xs={6} md={2} align='center' className='mb-4'>
-                            <div className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
-                                <img className='w-75' src={phplogo}></img>
+                            <div   className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                                <img className='w-75' src={phplogo}></img>  
                                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><h1 className='fs-1'>PHP</h1></div>
                             </div>
                         </Col>
                         <Col xs={6} md={2} align='center' className='mb-4'>
-                            <div className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                            <div   className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
                                 <img className='w-75' src={csharplogo}></img>
                                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><h1 className='fs-1'>C#</h1></div>
                             </div>
                         </Col>
                         <Col xs={6} md={2} align='center'>
-                            <div className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                            <div  className='p-5' id='sqr' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
                                 <img className='w-75' src={htmllogo}></img>
                                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><h1 className='fs-1'>HTML5</h1></div>
                             </div>
@@ -156,11 +157,30 @@ function Home() {
                                 <h6>2022</h6>
                             </div>
                         </Col>
+                        
+                    </Row>
+                    <Row className='justify-content-center text-center mx-lg-5 px-5'>
+                        <Col xs={12} md={4} align='center' className='mb-3 '>
+                            <div className='p-5' id='sqr2' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                                <h3><strong>{t('excel')}</strong></h3>
+                                <h4>Univille Campus São Bento do Sul</h4>
+                                <h6>2021</h6>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={4} align='center' className='mb-3 '>
+                            <div className='p-5' id='sqr2' style={{ backgroundColor: 'rgba(33,33,33,.25)', borderRadius: '30px', position: 'relative' }}>
+                                <h3><strong>{t('html')}</strong></h3>
+                                <h4>Fundação Bradesco</h4>
+                                <h6>2023</h6>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
+                
                 <Container id='footercontainer' className='mt-lg-5 mt-2 py-4 d-block text-center justify-content-center'>
                     
                     <Row className='pb-3 text-center justify-content-center' >
+                        
                         <Col md={2}>
                            
                             <div id='smallcontats' >
@@ -180,7 +200,7 @@ function Home() {
                         </Col>
                     </Row>
                     <Row xs={12}>
-                        <Col>
+                        <Col className='mt-2'>
                             <h6>{t('madewith')}</h6>
                         </Col>
                     </Row>

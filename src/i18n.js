@@ -44,6 +44,8 @@ const resources = {
         "webprogrammer": "Web Programmer",
         "english": "English",
         "oop": "Object Oriented Programming",
+        "excel": "Advanced level Excel",
+        "html": "Advanced level HTML",
 
         "madewith": "Made with React by Arthur Fary",
 
@@ -70,6 +72,8 @@ const resources = {
         "webprogrammer": "Programador Web",
         "english": "Inglês",
         "oop": "Programação Orientada a Obj.",
+        "excel": "Excel Avançado",
+        "html": "HTML Avançado",
 
         "madewith": "Feito usando React por Arthur Fary",
     }

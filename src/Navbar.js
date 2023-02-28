@@ -63,7 +63,7 @@ function MainNavbar() {
               </Offcanvas.Header>
               <Offcanvas.Body className='me-5 justify-content-end'>
             
-            <Nav class="navbar-nav" >
+            <Nav className="navbar-nav" >
                 <Nav.Link href='https://github.com/ArthurEduardoFary/' target='__blank' className='pe-3'>
                     Git-hub
                 </Nav.Link>
