@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
+
+
 :root {
   --primaryblue: #179cf9;
   --white: #ffffff;
@@ -177,9 +179,22 @@
   font-size: 23pt;
 }
 
+
+#biggerh1s{
+  font-size: 3rem;
+}
+
+
+
 @media (min-width: 768px){
   #abm{
     font-size: 35pt;
+  }
+  #biggerh1s{
+    font-size: 4rem;
+  }
+  p{
+    line-height: 3.5rem;
   }
 }
 

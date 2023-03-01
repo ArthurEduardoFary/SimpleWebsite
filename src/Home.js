@@ -62,7 +62,7 @@ function Home() {
 
                     <Row>
                         <Col>
-                            <h1 className='text-center mt-5 pt-5' style={{ fontSize: '50pt' }}>{t('aboutme')}</h1>
+                            <h1 className='text-center mt-5 pt-5 px-4' id='biggerh1s'>{t('aboutme')}</h1>
                         </Col>
                     </Row>
 
@@ -71,19 +71,20 @@ function Home() {
                             <div className='text-md-end text-center mb-md-0 mb-5'> <img src={myself} alt="Eu" style={{ borderRadius: '50%' }} className='w-75' /></div>
                         </Col>
                         <Col xs={12} md={8}>
-                            <div className='text-md-start text-center text-justify mt-md-5 mt-2 pt-md-5 pt-0'>
-                                <h1 id='abm'>{t('aboutme1')}
-                                </h1>
-                                <h1 id='abm'>
+                            <div className='text-md-start text-center text-justify me-md-5 me-0 mt-md-5 mt-2 pt-md-5 pt-0'>
+                                <p id='abm'>
+                                    {t('aboutme1')}
+                                </p>
+                                <p id='abm'>
                                     {t('aboutme2')}
-                                </h1>
+                                </p>
                             </div>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
-                            <h1 className='text-center mb-5  my-2 py-5' style={{ fontSize: '50pt' }}>{t('intrestedin')}</h1>
+                            <h1 className='text-center mb-5  my-2 py-5 px-4' id='biggerh1s' >{t('intrestedin')}</h1>
                         </Col>
                     </Row>
 
@@ -128,7 +129,7 @@ function Home() {
 
                     <Row>
                         <Col>
-                            <h1 className='text-center mb-5  my-2 py-5' style={{ fontSize: '50pt' }}>{t('certificates')}</h1>
+                            <h1 className='text-center mb-5 my-2 py-5' id='biggerh1s'>{t('certificates')}</h1>
                         </Col>
                     </Row>
 

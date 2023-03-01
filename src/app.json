@@ -1,0 +1,11 @@
+{
+    "expo": {
+      "userInterfaceStyle": "automatic",
+      "ios": {
+        "userInterfaceStyle": "light"
+      },
+      "android": {
+        "userInterfaceStyle": "light"
+      }
+    }
+  }
