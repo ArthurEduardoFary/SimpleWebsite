@@ -1,6 +1,6 @@
 {
-  "name": "simplewebsite",
-  "homepage": "http://ArthurEduardoFary.github.io/SimpleWebsite",
+  "name": "portfolio",
+  "homepage": "https://arthurfary.github.io/Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
