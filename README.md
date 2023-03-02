@@ -1,1 +1,1 @@
-# This is my simple React website!
+# This is the React code for my portfolio website!
